@@ -43,7 +43,7 @@
 //--------------------------------------------------------------------+
 
 // GPIO connected to Neopixel data
-#define NEOPIXEL_PIN          36    // Note this is the IO number, not schematic pin number
+#define NEOPIXEL_PIN          45    // Note this is the IO number, not schematic pin number
 
 //#define NEOPIXEL_POWER_PIN    21
 //#define NEOPIXEL_POWER_STATE  1
@@ -52,11 +52,11 @@
 #define NEOPIXEL_BRIGHTNESS   0x10
 
 // Number of neopixels
-#define NEOPIXEL_NUMBER       1
+#define NEOPIXEL_NUMBER       5
 
 // LED for indicator and writing flash
 // If not defined neopixel will be use for flash writing instead
-#define LED_PIN               38
+#define LED_PIN               37
 #define LED_STATE_ON          1
 
 //--------------------------------------------------------------------+
